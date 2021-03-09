@@ -10,18 +10,13 @@
 //                                        .then(request.consumeXXX)
 //                                        .then(...)
 //
-// error            formatage des donnÃ©es du catch, utiliser selon
-//                      .catch(function(response) {
-//                          request.error(response);
-//                          // ...
-//                      }
 // example width JSON data:
 // let parameter = {
 //   'param': value
 // };
-// fetch()
+// fetch_handler()
 //   .init(parameter)
-//   .then(request.consumeJSON)
+//   .consumeJSON()
 //   .then(function success();)
 //   .catch(function error();)
 //   .finally(function finally();)
